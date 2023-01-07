@@ -1,8 +1,8 @@
 --Copyright (C) 2022 Komeil Majidi.
 
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
 entity gbt_bank_reset is   
    generic ( 
    
