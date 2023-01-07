@@ -1,8 +1,8 @@
 --Copyright (C) 2022 Komeil Majidi.
 
-Library ieee;
-Use ieee.std_logic_1164.All;
-Use ieee.numeric_std.All;
+Library IEEE;
+Use IEEE.std_logic_1164.All;
+Use IEEE.numeric_std.All;
 Use work.gbt_bank_package.All;
 Use work.vendor_specific_gbt_bank_package.All;
 Use work.gbt_banks_user_setup.All;
