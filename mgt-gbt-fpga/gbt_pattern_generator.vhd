@@ -73,7 +73,8 @@ begin
                 else
                   TX_EXTRA_DATA_WIDEBUS_O            <= (others => '0');
                end if;
-            when others =>               
+            when others => 
+               TX_DATA_O(81 downto 0)           <= (others => '0');               
                TX_EXTRA_DATA_WIDEBUS_O          <= (others => '0'); 
                
          end case;
